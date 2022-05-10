@@ -1,0 +1,32 @@
+* {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    max-width: 40%;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+

@@ -1,0 +1,85 @@
+* {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    margin: 20px 0;
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.iconBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconUnit {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.iconText1 {
+    color: hsl(178, 100%, 50%);
+    font-size: 15px;
+}
+
+.iconText2 {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.line {
+    margin: 20px 0;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.footerBox {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.avatar {
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 20%;
+}
+
+.footer {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
