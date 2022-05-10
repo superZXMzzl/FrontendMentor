@@ -1,0 +1,44 @@
+* {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    min-height: 100vh;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    margin: 10% 10%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 15px;
+    overflow: hidden;
+    justify-content: center;
+    column-gap: 10%;
+}
+
+.left{
+    padding: 8%;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.image{
+    max-width: 45%;
+    background-color: hsl(277, 64%, 61%);
+}
+
