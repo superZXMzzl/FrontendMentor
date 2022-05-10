@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./images/bg-pattern-top.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+ .wrapper {
+     background-color: white;
+     border-radius: 15px;
+ }
