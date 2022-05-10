@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulder display', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.column {
+    padding: 20%;
+}
+
+.title {
+    margin: 20% 0;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+
+.description {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+a {
+    display: block;
+    margin-top: 20%;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 10%;
+    border-radius: 26px;
+    text-align: center;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: 0.4s ease;
+}
+
+.button1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.button1:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    transform: color backgroud-color;
+}
+
+.button2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.button2:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    transform: color backgroud-color;
+}
+
+.button3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.button3:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    transform: color backgroud-color;
+}
+
+
+@media screen and (max-width: 450px) {
+    .container {
+        display: block;
+        max-width: 80%;
+    }
+
+
+}

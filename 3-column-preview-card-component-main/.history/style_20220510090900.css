@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulder display', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 100%;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+
+}
