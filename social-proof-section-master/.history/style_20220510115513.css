@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right1, .right2, .right3 {
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    margin: 15px 0;
+    border-radius: 10px;
+    width: 70%;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+}
+
+.right2 {
+    margin-left: 15%;
+}
+
+.right3 {
+    margin-left: 30%;
+}
+
+.starBox {
+    margin: 10px;
+    margin-right: 5%;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card1, .card2, .card3 {
+    margin-right: 20px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 2%;
+    border-radius: 15px;
+    color: hsl(300, 24%, 96%)
+}
+
+.leftTitle {
+    margin: 5% 0;
+    color: hsl(300, 43%, 22%);
+    font-weight: bolder;
+    font-size: 60px;
+    line-height: 0.8;
+}
+
+.leftDes {
+    color: hsl(300, 43%, 22%);
+}
+
+.card2 {
+    margin-top: 5%;
+}
+
+.card3 {
+    margin-top: 10%;
+    margin-right: 0;
+}
+
+.cardHead {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.avatar {
+    border-radius: 100%;
+    overflow: hidden;
+    width: 25%;
+    margin-right: 10%;
+    padding: 5% 0;
+}
+
+.ii {
+    color: hsl(333, 80%, 67%);
+}
+
+.cardText {
+    font-size: 15px;
+}
+
+@media screen and (max-width:450px){
+    .container {
+        display: block;
+        align-items: center;
+    }
+
+    .top {
+        display: block;
+    }
+
+    .right {
+        display: block;
+    }
+
+    .right1, .right2, .right3 {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+        align-items: center;
+        text-align: center;
+        padding: 1% 0;
+    }
+
+    .bottom {
+        margin-top: 10%;
+        display: block;
+    }
+
+    .card1, .card2, .card3 {
+        margin-right: 0;
+        padding: 10%;
+        margin-top: 5%;
+    }
+}

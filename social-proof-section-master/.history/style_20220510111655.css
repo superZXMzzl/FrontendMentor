@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right1, .right2, .right3 {
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    margin: 15px 0;
+    border-radius: 10px;
+    width: 65%;
+    font-size: 15px;
+}
+
+.right2 {
+    margin-left: 5%;
+}
+
+.starBox {
+    margin: 10px;
+    margin-right: 5%;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+}
+
+.cardHead {
+    display: flex;
+    align-items: center;
+}

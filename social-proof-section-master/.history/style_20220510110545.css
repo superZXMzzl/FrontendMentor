@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    max-width: 1200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
