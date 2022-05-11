@@ -1,0 +1,36 @@
+.container {
+    background-color: hsl(213, 19%, 18%);
+    max-width: 500px;
+    margin: 0 auto; 
+    border-radius: 20px;
+    text-align: left;
+    align-items: center;
+    padding: 10%;
+}
+
+.rate-wrapper {
+
+}
+
+.rate-wrapper img {
+    
+}
+
+.rate-wrapper h3 {
+    color: white;
+    font-size: 40px;
+}
+
+.rate-wrapper p {
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.rate-wrapper ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}

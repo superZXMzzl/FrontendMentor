@@ -1,0 +1,45 @@
+.container {
+    background-color: hsl(213, 19%, 18%);
+    max-width: 500px;
+    margin: 0 auto; 
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.wrapper {
+
+}
+
+img {
+    margin: 20px 0;
+}
+
+h5 {
+    margin: 0 4rem;
+    padding: 1rem;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 38%);
+    border-radius: 30px;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+}
+
+p {
+    margin: 0 2rem;
+    color : hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.returnButton {
+    max-width: 200px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+

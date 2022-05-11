@@ -1,0 +1,51 @@
+.container {
+    background-color: hsl(213, 19%, 18%);
+    max-width: 500px;
+    margin: 0 auto; 
+    border-radius: 20px;
+    text-align: left;
+    align-items: center;
+    padding: 10%;
+}
+
+.rate-wrapper {
+
+}
+
+.rate-wrapper top {
+    
+}
+.rate-wrapper img {
+    padding: 20px;
+    background-color: hsl(216, 4%, 25%);
+    border-radius: 100%;
+}
+
+.rate-wrapper h3 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: white;
+    font-size: 40px;
+    text-align: left;
+}
+
+.rate-wrapper p {
+    margin: 0 2rem;
+    color : hsl(217, 12%, 63%);
+    font-size: 15px;
+    text-align: left;
+}
+
+.rate-wrapper ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.rate-wrapper li {
+    background-color: hsl(217, 12%, 63%);
+    border-radius: 100%;
+}
