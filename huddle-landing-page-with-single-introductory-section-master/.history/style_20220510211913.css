@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    top:0;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+}
