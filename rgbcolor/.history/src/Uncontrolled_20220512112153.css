@@ -1,0 +1,10 @@
+.controll-container {
+    width: 100%;
+    background-color: rgb(143, 133, 121);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+    column-gap: 30px;
+  }
